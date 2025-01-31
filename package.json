@@ -1,0 +1,28 @@
+{
+  "name": "your-health-agenda-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DustyCs/Health-and-Schedule-Website.git"
+  },
+  "keywords": [
+    "health",
+    "schedule",
+    "hobby",
+    "lifestyle"
+  ],
+  "author": "Garcia J., Andes H., Elli R.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DustyCs/Health-and-Schedule-Website/issues"
+  },
+  "homepage": "https://github.com/DustyCs/Health-and-Schedule-Website#readme",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
