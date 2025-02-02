@@ -25,10 +25,11 @@
   "homepage": "https://github.com/DustyCs/Health-and-Schedule-Website#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "uuid": "^11.0.5"
+    "firebase": "^11.2.0",
+    "uuid": "^11.0.5",
+    "express": "^4.21.2"
   },
   "devDependencies": {
-    "express": "^4.21.2",
     "nodemon": "^3.1.9"
   }
 }
