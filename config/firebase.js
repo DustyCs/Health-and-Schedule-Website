@@ -1,5 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+require('dotenv').config();
 
 // import { getAnalytics } from "firebase/analytics";
 
@@ -9,7 +10,7 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyD0s_CgYnT5c94vtDCosnqpU41cIBVhxO0",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "lifetime-cs.firebaseapp.com",
   projectId: "lifetime-cs",
   storageBucket: "lifetime-cs.firebasestorage.app",
