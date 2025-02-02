@@ -24,7 +24,6 @@ app.use(cors(corsOptions));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
-
 app.use('/', require('./routes/root'));
 app.use('/subdir', require('./routes/subdir'));
 
